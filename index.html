@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel Funcional</title>
+    <link rel="shortcut icon" href="imagenes/image-removebg-preview (10).png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/image-removebg-preview (10).png" alt="Bootstrap" class="ms-5" width="70" height="70">
+      </a>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link mx-3 active" aria-current="page" href="#">Home</a>
+            <a class="nav-link mx-3" href="#Mercancia">MERCANCIA</a>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</button>
+            <button type="button" class="btn btn-outline-secondary mx-3" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="imagenes/61u8sDoOAIL._AC_UF894,1000_QL80_.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Descubre peluches adorables</h3>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="imagenes/636ece2952387b002357c046-action-figures-roblox-series-1-ultimate.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Nuevos juguetes de tus juegos favoritos</h3> 
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="imagenes//b3evfee0vb571.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+                  <h3>Increibles ofertas</h3>
+              </div>
+          </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+
+  <div>
+    <h1 id="Mercancia">PELUCHES</h1>
+  </div>
+
+  <div class="contenedor-cards">
+    <div class="card1">
+      <img src="imagenes/imageXDXD.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">X PELUCHE</h5>
+        <p class="card-text">Te gusta este peluche??? compralo ya!!.</p>
+        <h6 class="card-text">COP 50.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card1">
+      <img src="imagenes/descargar (1).jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ARTEFUL PELUCHE</h5>
+        <p class="card-text">Te gusta "DIE OF DEATH"??? pues este peluche es perfecto para ti!!.</p>
+        <h6 class="card-text">COP 50.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card1">
+      <img src="imagenes/shopping.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CHANCE PELUCHE</h5>
+        <p class="card-text">Te gusta "FORSERKEN"? este peluche te encantara.</p>
+        <h6 class="card-text">COP 50.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card1">
+      <img src="imagenes/Captura de pantalla 2025-11-30 185259.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">NOOB PELUCHE</h5>
+        <p class="card-text">Este peluche es muy adorable compralo ya!!!</p>
+        <h6 class="card-text">COP 50.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+  </div>
+
+  <h1>JUGUETES</h1>
+
+  <div class="contenedor-cards">
+    <div class="card2">
+      <img src="imagenes/295c19d579c308e1885b4afed4391221.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pack 1</h5>
+        <h6 class="card-text">COP 150.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="imagenes/00b05070a339afbbf774a66cd5045830.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pack 2</h5>
+        <h6 class="card-text">COP 150.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="imagenes/10cee93d4b7d92b2da021c5cbb01afc4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pack 3</h5>
+        <h6 class="card-text">COP 150.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+
+    <div class="card2">
+      <img src="imagenes/Roblox Action Collection - Apocalypse Rising 2 Six Figure Pack [Includes Exclusive Virtual Item].jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pack 4</h5>
+        <h6 class="card-text">COP 150.000.</h6>
+        <a href="#" class="btn btn-success">Comprar!!!</a>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white text-center text-lg-start mt-5">
+    <div class="container p-4">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Retoys</h5>
+          <p>
+            Dirección: Calle 123, Ciudad  
+            Tel: 303 302 8929  
+            Email: contacto@empresa.com
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Enlaces</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-white">Inicio</a></li>
+            <li><a href="#" class="text-white">Servicios</a></li>
+            <li><a href="#" class="text-white">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Redes</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-white">Facebook</a></li>
+            <li><a href="#" class="text-white">Instagram</a></li>
+            <li><a href="#" class="text-white">WhatsApp</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="text-center p-3 bg-secondary">
+      © 2025 Retoys Enterteiment - Todos los derechos reservados
+    </div>
+  </footer>
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Iniciar Sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" placeholder="•••••••">
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Iniciar Sesión</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="registerModalLabel">Crear cuenta</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="registerName" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="registerName">
+            </div>
+
+            <div class="mb-3">
+              <label for="registerEmail" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="registerEmail">
+            </div>
+
+            <div class="mb-3">
+              <label for="registerPassword" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="registerPassword">
+            </div>
+
+            <div class="mb-3">
+              <label for="registerPassword2" class="form-label">Repetir contraseña</label>
+              <input type="password" class="form-control" id="registerPassword2">
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+          <button type="button" class="btn btn-success">Crear cuenta</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
